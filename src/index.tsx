@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import NotFoundPage from "./Pages/NotFound/NotFound";
 import { store } from "./app/store";
@@ -9,7 +9,7 @@ import { Provider } from "react-redux";
 import Details from "./Pages/Details/Details";
 import "./index.css";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     element: <Home />,
     path: "",
