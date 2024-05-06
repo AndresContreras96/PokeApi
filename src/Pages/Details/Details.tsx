@@ -3,9 +3,8 @@ import { useGetPokemonQuery } from "../../app/services/pokemonApi";
 import PokemonView from "../../components/PokemonView/PokemonView";
 import { useNavigate, useParams } from "react-router-dom";
 import Layout from "../../components/Layout/Layout";
-import PokemonDetails from "./components/PokemonDetails/PokemonDetails";
 import "../Details/Details.css";
-
+import PokemonDetails from "../../components/PokemonDetails/PokemonDetails";
 
 const Details = () => {
   let { name } = useParams();

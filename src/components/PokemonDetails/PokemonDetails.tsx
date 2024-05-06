@@ -1,7 +1,7 @@
 import React from "react";
-import { Pokemon } from "../../../../app/types/Pokemon";
-import ProgressBar from "../../../../components/ProgressBar/ProgressBar";
-import "../PokemonDetails/PokemonDetails.css";
+import { Pokemon } from "../../app/types/Pokemon";
+import ProgressBar from "../ProgressBar/ProgressBar";
+import "./PokemonDetails.css";
 
 interface Props {
   data: Pokemon;
