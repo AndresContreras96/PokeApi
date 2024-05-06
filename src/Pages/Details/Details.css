@@ -10,3 +10,7 @@
   width: 200px;
   margin: 20px;
 }
+
+.details-container button:hover {
+  cursor: pointer;
+}
