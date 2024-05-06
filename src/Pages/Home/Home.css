@@ -1,0 +1,22 @@
+.container {
+  height: 100%;
+  background: rgba(222, 222, 222, 0.5);
+  width: 100%;
+}
+
+.container .table {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 60px 80px;
+  height: 80%;
+  overflow: scroll;
+  overflow-x: hidden;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 40px;
+}

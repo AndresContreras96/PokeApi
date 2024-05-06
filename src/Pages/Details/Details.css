@@ -1,0 +1,55 @@
+.details-container {
+  background: rgba(72, 177, 247, 0.25);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.details-container .main-container {
+  width: 100%;
+}
+
+.details-container button {
+  width: 200px;
+  margin: 20px;
+}
+
+.details-container h2 {
+  font-size: 1.75rem;
+}
+
+.details-container .type {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.details-container .info {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+}
+
+.details-container .stadistics {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+  padding: 16px 24px;
+}
+
+.details-container .stadistics .stats,
+.abilities {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.details-container .stadistics .stats .stat-container {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+}
